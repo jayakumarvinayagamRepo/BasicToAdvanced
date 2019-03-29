@@ -2,7 +2,7 @@
 
 namespace Basic
 {
-    public class Class1
+    public class IAddition
     {
     }
 }
