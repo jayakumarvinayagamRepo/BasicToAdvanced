@@ -4,7 +4,11 @@ using System.Text;
 
 namespace Basic
 {
-    class Addition
+    public class Addition : IAddition
     {
+        public double Add(double first, double second)
+        {
+            return first + second;
+        }
     }
 }

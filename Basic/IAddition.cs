@@ -2,7 +2,8 @@
 
 namespace Basic
 {
-    public class IAddition
+    public interface IAddition
     {
+        double Add(double first, double second);
     }
 }
